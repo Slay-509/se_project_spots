@@ -3,9 +3,10 @@
 }
 
 .page__content {
-  font-family: Poppins, Arial, Helvetica, sans-serifÍ;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   min-height: 100vh;
   margin: 0 auto;
+  color: #212121;
 }
 
 .page__section {

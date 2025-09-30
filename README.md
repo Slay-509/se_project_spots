@@ -4,7 +4,7 @@ Image sharing site
 
 ## Description
 
-This is a site where users are allowed to made their account and share images of memory that they made during a trip, vacation or any images that have a personal meaning and worth sharing to the public.
+Spots is a responsive web application where users can view and interact with shared photos. It's designed to work seamlessly across different devices - desktop, tablet, and mobile (desktop: 3 cards per row, tablet: 2 cards per row, mobile: 1 card per row)
 
 ## Tech Stack
 
@@ -17,3 +17,7 @@ This is a site where users are allowed to made their account and share images of
 Website is deployed to Github Pages
 
 - [Deployment Link](https://slay-509.github.io/se_project_spots/)
+
+## Videos
+
+- [Link for Video](https://drive.google.com/file/d/1vruuiOUIIv7yqTKFtFoETiCSNQD50lkE/view?usp=share_link)
