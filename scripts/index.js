@@ -31,7 +31,6 @@ editProfileCloseBtn.addEventListener("click", function () {
 });
 
 newPostBtn.addEventListener("click", function () {
-  newPostModal.classList.add("modal_is-opened");
   openModal(newPostModal);
 });
 
@@ -51,7 +50,6 @@ function handleEditProfileSubmit(evt) {
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
-
   closeModal(editProfileModal);
 }
 
@@ -59,6 +57,8 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
+  console.log(newPostCardImageInput.value);
+  console.log(newPostCardCaptionInput.value);
   closeModal(newPostModal);
 }
 

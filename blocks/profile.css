@@ -65,6 +65,7 @@
 }
 
 .profile__add-btn {
+  border: none;
   font-size: 16px;
   line-height: 100%;
   font-weight: 500;
